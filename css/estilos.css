@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Bowlby One', cursive;
+}
+
+.opciones_menu{
+	color: #FFF;
+	font-size: 28px;
+	font-weight: bolder;
+	padding: 20px 0px;
+	
+}
+
+a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #FFF;
+}
+
+#container{
+ float:left;
+ width: 1280px;
+ height: 833px;
+ position:relative;
+ text-align: center;
+ background: url(../img/proximamente.jpg) no-repeat center;
+ position: absolute;
+ margin: auto 0;
+}
+
+#menu{
+ width:56px;
+ height:74px;
+ margin-left:56;
+ margin-top:376;
+ background-image:url(../img/menu.png);
+ cursor: pointer;
+
+}
+
+#tab_menu{
+	width: 469px;
+	height: 633px;
+	background-color: #008130;
+	/*background: url(../img/desplegable.png);*/
+	position: absolute;
+	display: none;
+	left: -477px;
+	/*position: relative;
+	left: -477px;*/ 
+ 	/*display: none;*/
+ 	padding-top: 200px;
+}
+
+.opciones_menu a:hover{
+	width: 469px;
+	background-color: #007236;
+}
+
+#footer{
+ width:1280px;
+ height:71px;
+ margin-top:312;
+ background-image:url(../img/footer.png);	
+}
+
+#twitter{
+ width:93px;
+ height:32px;
+ margin-top:19px;
+ margin-left:1018px;
+}
+
+#facebook{
+ width:123px;
+ height:32px;
+ margin-top:-32;
+ margin-left:1137;
+}
+
+#desplegable{
+ width:468px;
+ height:833px;
+ margin-left:0px;
+ margin-top:-833px;
+ background-image:url(img/desplegable.png);
+ visibility:hidden;
+}
