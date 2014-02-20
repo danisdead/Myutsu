@@ -1,10 +1,5 @@
-@charset "utf-8";
-/* CSS Document */
-
-body{
-	font-family: 'Bowlby One', cursive;
-}
-
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 .opciones_menu{
 	color: #FFF;
 	font-size: 28px;
@@ -22,15 +17,26 @@ a:visited{
 	color: #FFF;
 }
 
+.input_registro{
+	width:356px;
+	height:21px;
+	margin-top:10px;
+}
+#form_registro{
+	width:356px;
+}
+
+#boton_registro{
+	margin-top:10px;
+}
+
 #container{
- float:left;
  width: 1280px;
  height: 833px;
- position:relative;
  text-align: center;
  background: url(../img/proximamente.jpg) no-repeat center;
  position: absolute;
- margin: auto 0;
+ margin: 0 auto;
 }
 
 #menu{
@@ -40,47 +46,76 @@ a:visited{
  margin-top:376;
  background-image:url(../img/menu.png);
  cursor: pointer;
-
 }
 
 #tab_menu{
-	width: 469px;
-	height: 633px;
-	background-color: #008130;
-	/*background: url(../img/desplegable.png);*/
-	position: absolute;
-	display: none;
-	left: -477px;
-	/*position: relative;
-	left: -477px;*/ 
- 	/*display: none;*/
- 	padding-top: 200px;
+ width: 469px;
+ height: 633px;
+ background-color: #008130;
+ position: absolute;
+ display: none;
+ left: -477px;
+ padding-top: 200px;
 }
 
 .opciones_menu a:hover{
-	width: 469px;
-	background-color: #007236;
+ width: 469px;
+ background-color: #007236;
 }
 
 #footer{
+	width: 1280px;
+	height: 71px;
+	position: relative;
+	top: 833px;
+	background-image: url(../img/footer.png);
+}
+
+#footerv{
  width:1280px;
  height:71px;
- margin-top:312;
+ margin-top:142px;
  background-image:url(../img/footer.png);	
+}
+
+#politicas{
+ width:175px;
+ height:15px;
+ position:relative;
+ left:286px;
+ top:43px;
+}
+
+#terminos{
+ width:128px;
+ height:15px;
+ position:relative;
+ left:516px;
+ top:29px;	
+}
+
+#youtube{
+ width:108px;
+ height:32px;
+ position:relative;
+ left:879px;
+ top:-10px;	
 }
 
 #twitter{
  width:93px;
  height:32px;
- margin-top:19px;
- margin-left:1018px;
+ position:relative;
+ left:1018px;
+ top:-43px;	
 }
 
 #facebook{
  width:123px;
  height:32px;
- margin-top:-32;
- margin-left:1137;
+ position:relative;
+ left:1136px;
+ top:-75px;	
 }
 
 #desplegable{
@@ -90,4 +125,24 @@ a:visited{
  margin-top:-833px;
  background-image:url(img/desplegable.png);
  visibility:hidden;
+}
+
+#video{
+ width:356px;
+ height:220px;
+ margin-top:-259px;
+ margin-left:676px;	
+}
+
+#input{
+ width:100%;	
+}
+
+#bases{
+ width:842px;
+ height:268px;
+ overflow:auto;	
+ margin-left:230px;
+ margin-top:-130px;
+ font-family: 'Bowlby One', cursive;
 }

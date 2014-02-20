@@ -8,12 +8,21 @@
      </div>
      <div id="video">
       <iframe width="356" height="220" src="//www.youtube.com/embed/YvU7HkLyw6I" frameborder="0" allowfullscreen></iframe>
-      <form action="index.php" method="post" id="form_registro">
-        <input  class="input_registro" type="text" name="nombre" placeholder="NOMBRE:">
-        <input  class="input_registro" type="text" name="correo" width="356px" placeholder="MAIL:">
-        <input class="input_registro" type="text" name="telefono" width="356px" placeholder="TELÉFONO:">
-        <select  class="input_registro" name="ciudad">
-                        <option disabled selected>SELECCIONA TU CIUDAD:</option>
+     </div>
+     <div id="registro">
+      <form action="upload.php" method="post">
+       <div style="width:356px;height:21px;margin-left:677px;margin-top:22px">
+        <input id="input" type="text" name="nombre" placeholder="NOMBRE:">
+       </div>
+       <div style="width:356px;height:21px;margin-left:677px;margin-top:10px">
+        <input id="input" type="text" name="correo" width="356px" placeholder="MAIL:">
+       </div>
+       <div style="width:356px;height:21px;margin-left:677px;margin-top:10px">
+        <input id="input" type="text" name="telefono" width="356px" placeholder="TELÉFONO:">
+       </div>
+       <div style="width:356px;height:21px;margin-left:677px;margin-top:10px">
+        <select id="input" name="ciudad">
+                    	<option disabled selected>SELECCIONA TU CIUDAD:</option>
                         <option>Acapulco</option>
                         <option>Aguascalientes</option>
                         <option>Apodaca</option>
@@ -89,7 +98,6 @@
                         <option>Poza Rica de Hidalgo</option>
                         <option>Puebla</option>
                         <option>Puerto Vallarta</option>
-
                         <option>Querétaro</option>
                         <option>Reynosa</option>
                         <option>Salamanca</option>
@@ -127,13 +135,32 @@
                         <option>Zamora</option>
                         <option>Zapopan</option>
                     </select>
-        <input class="input_registro"  type="text" name="lote" width="356px" placeholder="NO. DE LOTE:">
-        <input id="boton_registro" type="image" name="action" src="img/btn_registrar.png">
+       </div>
+       <div style="width:356px;height:21px;margin-left:677px;margin-top:10px">
+        <input id="input" type="text" name="lote" width="356px" placeholder="NO. DE LOTE:">
+       </div>
+       <div style="width:356px;height:35px;margin-left:677px;margin-top:10px">
+        <input type="image" name="action" src="img/btn_registrar.png">
+       </div>
       </form>
      </div>
-    </div>
-    <div id="footerv">
-        <?php require('footer.php'); ?>
+     <div id="footerv">
+      <div id="youtube">
+       <a href="http://www.youtube.com/channel/UC3kP5e0DGxfXcUxG62idWeQ"target="_blank">
+        <img id="yt_btn" src="img/yt_btn.png"/>
+       </a>
+      </div>
+      <div id="twitter">
+       <a href="https://twitter.com/Ades_Mex"target="_blank">
+        <img id="twtr_btn" src="img/twitter_btn.png"/>
+       </a>
+      </div>
+      <div id="facebook">
+       <a href="https://www.facebook.com/AdeSMexico" target="_blank">
+       <img id="fb_btn" src="img/fb_btn.png"/>
+       </a>
+       </div>
+      </div>
     </div>
 </body>
 </html>
