@@ -5,7 +5,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	font-size: 28px;
 	font-weight: bolder;
 	padding: 20px 0px;
-	
+	font-family: 'Bowlby One', cursive;
 }
 
 a{
@@ -20,10 +20,20 @@ a:visited{
 .input_registro{
 	width:356px;
 	height:21px;
+	*margin-top:0px;
 	margin-top:10px;
 }
 #form_registro{
 	width:356px;
+}
+
+.label_form{
+	font-family: 'Bowlby One', cursive;
+	text-align: left;
+	display:none;
+	margin-top:10px;
+	*margin-top:2px;
+	*display: block;
 }
 
 #boton_registro{
@@ -42,8 +52,12 @@ a:visited{
 #menu{
  width:56px;
  height:74px;
- margin-left:56;
- margin-top:376;
+	position: relative;
+	left: 56px;
+	top: 376px;
+
+	*left:10px;
+	*float:left;
  background-image:url(../img/menu.png);
  cursor: pointer;
 }
@@ -63,21 +77,23 @@ a:visited{
  background-color: #007236;
 }
 
-#footer{
-	width: 1280px;
-	height: 71px;
-	position: relative;
-	top: 833px;
-	background-image: url(../img/footer.png);
-}
-
 #footerv{
- width:1280px;
- height:71px;
- margin-top:142px;
- background-image:url(../img/footer.png);	
+width: 1280px;
+height: 71px;
+position: relative;
+top: 833px;
+background-image: url(../img/footer.png);
+
 }
 
+#footemec{
+width: 1280px;
+height: 71px;
+position: relative;
+top: 759px;
+background-image: url(../img/footer.png) no-repeat;
+
+}
 #politicas{
  width:175px;
  height:15px;
@@ -130,8 +146,11 @@ a:visited{
 #video{
  width:356px;
  height:220px;
- margin-top:-259px;
- margin-left:676px;	
+	position: relative;
+	left: 672px;
+	top:100px;
+	*left:180px;
+	*top:200px;
 }
 
 #input{
@@ -146,3 +165,4 @@ a:visited{
  margin-top:-130px;
  font-family: 'Bowlby One', cursive;
 }
+
