@@ -2,12 +2,13 @@
 $(document).ready(function(){
 
 	$('#menu').on('click', function(){
+		$('#menu').fadeOut(1000);
 		 $('#tab_menu').css({ 'display': 'block'});
                 $('#tab_menu').animate(
                         {
                             'margin-left':'477px'
                          
-                        },1000, "swing", console.log('entro')) 
+                        },1000, "swing") 
 	});
 
 
@@ -21,6 +22,8 @@ $(document).ready(function(){
 			                          'margin-left':'-477px'
 		                          	},1000);
 			    }
+
+			    $('#menu').fadeIn(1000);
 	
 	});
 

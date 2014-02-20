@@ -6,7 +6,7 @@
    <?php require('menu.php'); ?>
    <div id="menu">
    </div>
-   <div id="footer">
+   <div id="footermec">
     <?php require('footer.php'); ?>
    </div>
   </div>
