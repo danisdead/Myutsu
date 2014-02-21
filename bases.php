@@ -171,7 +171,7 @@ No podrán participar en la promoción: personas participantes fuera del territo
 <b>AVISO DE PRIVACIDAD</b><br><br>
 UNILEVER DE MÉXICO, S. DE R.L. DE C.V., con domicilio en Paseo de los Tamarindos No. 150, Arcos Norte D, Col. Bosques de las Lomas, Delegación Cuajimalpa, en cumplimiento con de lo establecido en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, utilizará los datos personales, aquí recabados, usar y difundir su imagen en obras audiovisuales, impresos, anuncios publicitarios, promocionales y eventos masivos que podrán ser comunicados a través de cualquier medio conocido o por conocerse; para localizarlos y contactarlos e inclusive agregarlos en bases de datos; en su caso: para la celebración de contratos, convenios y cartas de autorización de uso de imagen y su canalización con medios de comunicación, agencias productoras o de publicidad, así como cualquier otra finalidad análoga a las aquí establecidas. En ese sentido al aceptar las presentes Bases, nos otorgas tu consentimiento de manera expresa, a través de este aviso de privacidad, facultándonos para poder transferir tus datos, únicamente con la finalidad de brindarte un mejor servicio en el caso de requerirse.
    </div>
-   <div id="footer">
+   <div id="footer2">
     <?php require('footer.php'); ?>
    </div>
   </div>

@@ -92,7 +92,16 @@ width: 1280px;
 height: 71px;
 position: relative;
 top: 759px;
-background-image: url(../img/footer.png) no-repeat;
+background-image: url(../img/footer.png);
+}
+
+#footer2{
+width: 1280px;
+height: 71px;
+position: relative;
+*top: 533px;
+top:489px;
+background-image: url(../img/footer.png);
 
 }
 #politicas{
@@ -101,6 +110,8 @@ background-image: url(../img/footer.png) no-repeat;
  position:relative;
  left:286px;
  top:43px;
+ *top:25px;
+ *left:-267px;
 }
 
 #terminos{
@@ -109,6 +120,8 @@ background-image: url(../img/footer.png) no-repeat;
  position:relative;
  left:516px;
  top:29px;	
+ *top:0px;
+ *left:-64px;
 }
 
 #youtube{
@@ -117,6 +130,8 @@ background-image: url(../img/footer.png) no-repeat;
  position:relative;
  left:879px;
  top:-10px;	
+  *top:-55px;
+  *left:289px;
 }
 
 #twitter{
@@ -125,6 +140,8 @@ background-image: url(../img/footer.png) no-repeat;
  position:relative;
  left:1018px;
  top:-43px;	
+  *top:-90px;
+  *left:418px;
 }
 
 #facebook{
@@ -133,6 +150,8 @@ background-image: url(../img/footer.png) no-repeat;
  position:relative;
  left:1136px;
  top:-75px;	
+  *top:-127px;
+  *left:536;
 }
 
 #desplegable{
@@ -163,10 +182,11 @@ background-image: url(../img/footer.png) no-repeat;
  height:268px;
  overflow:auto;	
  font-family: 'Bowlby One', cursive;
-
- position: relative;
-top: 251px;
-left: 234px;
+ 	position: relative;
+	top: 251px;
+	left: 234px;
+	*left: -22px;
+	*top:330px;
 }
 .link{
 	color: #007317;
