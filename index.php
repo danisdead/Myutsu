@@ -1,5 +1,5 @@
 <?php require('header.php'); ?>
-
+<link href='http://fonts.googleapis.com/css?family=Bowlby+One' rel='stylesheet' type='text/css'>
 <body style="background-color:
  #c4e5f6">
     <div id="container" style="background-image:url(img/registro_fondo.png)">
@@ -9,9 +9,9 @@
      <div id="video">
       <iframe width="356" height="220" src="//www.youtube.com/embed/YvU7HkLyw6I" frameborder="0" allowfullscreen></iframe>
       <form action="index.php" method="post" id="form_registro">
-        <input  class="input_registro" type="text" name="nombre" placeholder="NOMBRE:">
-        <input  class="input_registro" type="text" name="correo" width="356px" placeholder="MAIL:">
-        <input class="input_registro" type="text" name="telefono" width="356px" placeholder="TELÉFONO:">
+        <input  class="input_registro" type="text" name="nombre" placeholder="NOMBRE:" value="NOMBRE:">
+        <input  class="input_registro" type="text" name="correo" width="356px" placeholder="MAIL:" value="MAIL:">
+        <input class="input_registro" type="text" name="telefono" width="356px" placeholder="TELÉFONO:" value="TELÉFONO:">
         <select  class="input_registro" name="ciudad">
                         <option disabled selected>SELECCIONA TU CIUDAD:</option>
                         <option>Acapulco</option>
@@ -127,13 +127,43 @@
                         <option>Zamora</option>
                         <option>Zapopan</option>
                     </select>
-        <input class="input_registro"  type="text" name="lote" width="356px" placeholder="NO. DE LOTE:">
+        <input class="input_registro"  type="text" name="lote" width="356px" placeholder="NO. DE LOTE:" value="NO. DE LOTE:">
         <input id="boton_registro" type="image" name="action" src="img/btn_registrar.png">
       </form>
      </div>
     </div>
     <div id="footerv">
-        <?php require('footer.php'); ?>
+        <?php require('footer.php'); ?> 
     </div>
+    <script>
+    $(document).ready(function(){
+        $('input[name="nombre"]').on('focus', function(){
+            $(this).val("");
+        });
+        $('input[name="correo"]').on('focus', function(){
+            $(this).val("");
+        });
+        $('input[name="telefono"]').on('focus', function(){
+            $(this).val("");
+        });
+        $('input[name="lote"]').on('focus', function(){
+            $(this).val("");
+        });
+        $('input[name="nombre"]').on('focusout', function(){
+            $(this).val("NOMBRE:");
+        });
+        $('input[name="correo"]').on('focusout', function(){
+            $(this).val("MAIL:");
+        });
+        $('input[name="telefono"]').on('focusout', function(){
+            $(this).val("TEL\u00C9FONO:");
+        });
+        $('input[name="lote"]').on('focusout', function(){
+            $(this).val("NO. DE LOTE:");
+        });
+    })
+
+
+    </script>
 </body>
 </html> 

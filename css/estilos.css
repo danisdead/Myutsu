@@ -70,6 +70,7 @@ a:visited{
  display: none;
  left: -477px;
  padding-top: 200px;
+ z-index: 1;
 }
 
 .opciones_menu a:hover{
