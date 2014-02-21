@@ -110,8 +110,8 @@ background-image: url(../img/footer.png);
  position:relative;
  left:286px;
  top:43px;
- *top:25px;
- *left:-267px;
+ *top:20px;
+ *left:280px;
 }
 
 #terminos{
@@ -120,8 +120,8 @@ background-image: url(../img/footer.png);
  position:relative;
  left:516px;
  top:29px;	
- *top:0px;
- *left:-64px;
+ *top:-5px;
+ *left:512px;
 }
 
 #youtube{
@@ -131,7 +131,7 @@ background-image: url(../img/footer.png);
  left:879px;
  top:-10px;	
   *top:-55px;
-  *left:289px;
+  *left:889px;
 }
 
 #twitter{
@@ -141,7 +141,7 @@ background-image: url(../img/footer.png);
  left:1018px;
  top:-43px;	
   *top:-90px;
-  *left:418px;
+  *left:1018px;
 }
 
 #facebook{
@@ -151,7 +151,7 @@ background-image: url(../img/footer.png);
  left:1136px;
  top:-75px;	
   *top:-127px;
-  *left:536;
+  *left:1136px;
 }
 
 #desplegable{
