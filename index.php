@@ -152,16 +152,29 @@
             $(this).val("");
         });
         $('input[name="nombre"]').on('focusout', function(){
-            $(this).val("NOMBRE:");
+            var esto = $(this);
+            if(esto.val() == ""){
+                esto.val("NOMBRE:");
+            }
+            
         });
         $('input[name="correo"]').on('focusout', function(){
-            $(this).val("MAIL:");
+            var esto = $(this);
+            if(esto.val() == ""){
+                esto.val("EMAIL:");
+            }
         });
         $('input[name="telefono"]').on('focusout', function(){
-            $(this).val("TEL\u00C9FONO:");
+            var esto = $(this);
+            if(esto.val() == ""){
+            $(esto).val("TEL\u00C9FONO:");
+        }
         });
         $('input[name="lote"]').on('focusout', function(){
-            $(this).val("NO. DE LOTE:");
+            var esto = $(this);
+            if(esto.val() == ""){
+            $(esto).val("NO. DE LOTE:");
+        }
         });
     })
 
