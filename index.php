@@ -129,6 +129,8 @@
                     </select>
         <input class="input_registro"  type="text" name="lote" width="356px" placeholder="NO. DE LOTE:" value="NO. DE LOTE:">
         <input id="boton_registro" type="image" name="action" src="img/btn_registrar.png">
+        <br/><br/><br/><br/>
+        <a href="bases.php"><span class="link">Revisa bases y condiciones</span></a>
       </form>
      </div>
     </div>

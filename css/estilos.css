@@ -166,4 +166,12 @@ background-image: url(../img/footer.png) no-repeat;
  margin-top:-130px;
  font-family: 'Bowlby One', cursive;
 }
+.link{
+	color: #007317;
+ 	font-family: 'Bowlby One', cursive;
+ 	text-transform: uppercase;
+ 	text-decoration: underline;
+ 	font-size: 14px;
+}
+
 
